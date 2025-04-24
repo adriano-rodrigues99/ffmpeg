@@ -32,7 +32,7 @@ Pod::Spec.new do |s|
   s.static_framework  = true
 
   s.source       = { :git => "https://github.com/arthenica/ffmpeg-kit.git", :tag => "react.native.v#{s.version}" }
-  s.default_subspec = 'https'
+  s.default_subspec = 'https' # Just change to whatever subspec you want to use, e.g 'min-gpl'
   s.dependency "React-Core"
 
   s.subspec 'min' do |ss|
