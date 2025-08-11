@@ -5,7 +5,7 @@
    ```ruby
    target 'YourApp' do
      # Add these lines above `pod install`:
-     pod 'shaquillehinds-ffmpeg-kit-ios', :podspec => 'https://raw.githubusercontent.com/shaquillehinds/ffmpeg/master/shaquillehinds-ffmpeg-kit-ios.podspec'
+     pod 'adriano-rodrigues99-ffmpeg-kit-ios', :podspec => 'https://raw.githubusercontent.com/adriano-rodrigues99/ffmpeg/master/adriano-rodrigues99-ffmpeg-kit-ios.podspec'
      pod 'ffmpeg-kit-react-native', :path => '../node_modules/ffmpeg-kit-react-native'
 
      # ...other pods
@@ -38,112 +38,112 @@ Pod::Spec.new do |s|
   s.subspec 'min' do |ss|
       ss.source_files      = '**/FFmpegKitReactNativeModule.m',
                             '**/FFmpegKitReactNativeModule.h'
-      ss.dependency 'shaquillehinds-ffmpeg-kit-ios', "6.0.2"
+      ss.dependency 'adriano-rodrigues99-ffmpeg-kit-ios', "6.0.2"
       ss.ios.deployment_target = '12.1'
   end
 
   s.subspec 'min-lts' do |ss|
       ss.source_files      = '**/FFmpegKitReactNativeModule.m',
                             '**/FFmpegKitReactNativeModule.h'
-      ss.dependency 'shaquillehinds-ffmpeg-kit-ios', "6.0.2"
+      ss.dependency 'adriano-rodrigues99-ffmpeg-kit-ios', "6.0.2"
       ss.ios.deployment_target = '12.1'
   end
 
   s.subspec 'min-gpl' do |ss|
       ss.source_files      = '**/FFmpegKitReactNativeModule.m',
                             '**/FFmpegKitReactNativeModule.h'
-      ss.dependency 'shaquillehinds-ffmpeg-kit-ios', "6.0.2"
+      ss.dependency 'adriano-rodrigues99-ffmpeg-kit-ios', "6.0.2"
       ss.ios.deployment_target = '12.1'
   end
 
   s.subspec 'min-gpl-lts' do |ss|
       ss.source_files      = '**/FFmpegKitReactNativeModule.m',
                             '**/FFmpegKitReactNativeModule.h'
-      ss.dependency 'shaquillehinds-ffmpeg-kit-ios', "6.0.2"
+      ss.dependency 'adriano-rodrigues99-ffmpeg-kit-ios', "6.0.2"
       ss.ios.deployment_target = '12.1'
   end
 
   s.subspec 'https' do |ss|
       ss.source_files      = '**/FFmpegKitReactNativeModule.m',
                             '**/FFmpegKitReactNativeModule.h'
-      ss.dependency 'shaquillehinds-ffmpeg-kit-ios', "6.0.2"
+      ss.dependency 'adriano-rodrigues99-ffmpeg-kit-ios', "6.0.2"
       ss.ios.deployment_target = '12.1'
   end
 
   s.subspec 'https-lts' do |ss|
       ss.source_files      = '**/FFmpegKitReactNativeModule.m',
                             '**/FFmpegKitReactNativeModule.h'
-      ss.dependency 'shaquillehinds-ffmpeg-kit-ios', "6.0.2"
+      ss.dependency 'adriano-rodrigues99-ffmpeg-kit-ios', "6.0.2"
       ss.ios.deployment_target = '12.1'
   end
 
   s.subspec 'https-gpl' do |ss|
       ss.source_files      = '**/FFmpegKitReactNativeModule.m',
                             '**/FFmpegKitReactNativeModule.h'
-      ss.dependency 'shaquillehinds-ffmpeg-kit-ios', "6.0.2"
+      ss.dependency 'adriano-rodrigues99-ffmpeg-kit-ios', "6.0.2"
       ss.ios.deployment_target = '12.1'
   end
 
   s.subspec 'https-gpl-lts' do |ss|
       ss.source_files      = '**/FFmpegKitReactNativeModule.m',
                             '**/FFmpegKitReactNativeModule.h'
-      ss.dependency 'shaquillehinds-ffmpeg-kit-ios', "6.0.2"
+      ss.dependency 'adriano-rodrigues99-ffmpeg-kit-ios', "6.0.2"
       ss.ios.deployment_target = '12.1'
   end
 
   s.subspec 'audio' do |ss|
       ss.source_files      = '**/FFmpegKitReactNativeModule.m',
                             '**/FFmpegKitReactNativeModule.h'
-      ss.dependency 'shaquillehinds-ffmpeg-kit-ios', "6.0.2"
+      ss.dependency 'adriano-rodrigues99-ffmpeg-kit-ios', "6.0.2"
       ss.ios.deployment_target = '12.1'
   end
 
   s.subspec 'audio-lts' do |ss|
       ss.source_files      = '**/FFmpegKitReactNativeModule.m',
                             '**/FFmpegKitReactNativeModule.h'
-      ss.dependency 'shaquillehinds-ffmpeg-kit-ios', "6.0.2"
+      ss.dependency 'adriano-rodrigues99-ffmpeg-kit-ios', "6.0.2"
       ss.ios.deployment_target = '12.1'
   end
 
   s.subspec 'video' do |ss|
       ss.source_files      = '**/FFmpegKitReactNativeModule.m',
                             '**/FFmpegKitReactNativeModule.h'
-      ss.dependency 'shaquillehinds-ffmpeg-kit-ios', "6.0.2"
+      ss.dependency 'adriano-rodrigues99-ffmpeg-kit-ios', "6.0.2"
       ss.ios.deployment_target = '12.1'
   end
 
   s.subspec 'video-lts' do |ss|
       ss.source_files      = '**/FFmpegKitReactNativeModule.m',
                             '**/FFmpegKitReactNativeModule.h'
-      ss.dependency 'shaquillehinds-ffmpeg-kit-ios', "6.0.2"
+      ss.dependency 'adriano-rodrigues99-ffmpeg-kit-ios', "6.0.2"
       ss.ios.deployment_target = '12.1'
   end
 
   s.subspec 'full' do |ss|
       ss.source_files      = '**/FFmpegKitReactNativeModule.m',
                             '**/FFmpegKitReactNativeModule.h'
-      ss.dependency 'shaquillehinds-ffmpeg-kit-ios', "6.0.2"
+      ss.dependency 'adriano-rodrigues99-ffmpeg-kit-ios', "6.0.2"
       ss.ios.deployment_target = '12.1'
   end
 
   s.subspec 'full-lts' do |ss|
       ss.source_files      = '**/FFmpegKitReactNativeModule.m',
                             '**/FFmpegKitReactNativeModule.h'
-      ss.dependency 'shaquillehinds-ffmpeg-kit-ios', "6.0.2"
+      ss.dependency 'adriano-rodrigues99-ffmpeg-kit-ios', "6.0.2"
       ss.ios.deployment_target = '12.1'
   end
 
   s.subspec 'full-gpl' do |ss|
       ss.source_files      = '**/FFmpegKitReactNativeModule.m',
                             '**/FFmpegKitReactNativeModule.h'
-      ss.dependency 'shaquillehinds-ffmpeg-kit-ios', "6.0.2"
+      ss.dependency 'adriano-rodrigues99-ffmpeg-kit-ios', "6.0.2"
       ss.ios.deployment_target = '12.1'
   end
 
   s.subspec 'full-gpl-lts' do |ss|
       ss.source_files      = '**/FFmpegKitReactNativeModule.m',
                             '**/FFmpegKitReactNativeModule.h'
-      ss.dependency 'shaquillehinds-ffmpeg-kit-ios', "6.0.2"
+      ss.dependency 'adriano-rodrigues99-ffmpeg-kit-ios', "6.0.2"
       ss.ios.deployment_target = '12.1'
   end
 end
@@ -171,7 +171,7 @@ expo prebuild --clean
    pod install --repo-update
    ```
 
-5. **Done** — Now iOS uses your custom FFmpeg Pod (`shaquillehinds-ffmpeg-kit-ios`) via `ffmpeg-kit-react-native`.
+5. **Done** — Now iOS uses your custom FFmpeg Pod (`adriano-rodrigues99-ffmpeg-kit-ios`) via `ffmpeg-kit-react-native`.
 
 ## (Optional Step To Persist Changes) Patching `ffmpeg-kit-react-native` with `patch-package`
 
@@ -222,7 +222,7 @@ expo prebuild --clean
    const path = require("path");
 
    function addPodDependency(podfilePath) {
-     const podInstallLine = `pod 'shaquillehinds-ffmpeg-kit-ios', :podspec => 'https://raw.githubusercontent.com/shaquillehinds/ffmpeg/master/shaquillehinds-ffmpeg-kit-ios.podspec'`;
+     const podInstallLine = `pod 'adriano-rodrigues99-ffmpeg-kit-ios', :podspec => 'https://raw.githubusercontent.com/adriano-rodrigues99/ffmpeg/master/adriano-rodrigues99-ffmpeg-kit-ios.podspec'`;
      const podInstallLine2 = `pod 'ffmpeg-kit-react-native', :path => '../node_modules/ffmpeg-kit-react-native'`;
 
      let contents = fs.readFileSync(podfilePath, "utf8");
@@ -290,7 +290,7 @@ _(If you’re using `app.config.js`, add `plugins: ["./with-ffmpeg-pod.js"]` in 
    ```
    The generated `Podfile` will now include:
    ```ruby
-   pod 'shaquillehinds-ffmpeg-kit-ios', :podspec => '...'
+   pod 'adriano-rodrigues99-ffmpeg-kit-ios', :podspec => '...'
    pod 'ffmpeg-kit-react-native', :path => '../node_modules/ffmpeg-kit-react-native'
    ```
 
